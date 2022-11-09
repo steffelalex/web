@@ -1,16 +1,51 @@
 <!DOCTYPE html>
 <html>
+  <style>
+    table, th, td {
+      border:1px solid rgb(0, 0, 255);
+    }
+    </style>
 <style>
-table, th, td {
-  border:1px solid rgb(0, 0, 255);
+  ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #000000;
+}
+
+
+li {
+ float: left;
+}
+
+li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+li a:hover:not(.active) {
+ background-color: rgb(157, 0, 255);
+}
+
+.active {
+ background-color: #04AA6D;
 }
 </style>
+
 <body style="background-color:pink;">
 
-  <a href="kep.html">képek</a>
-  <a href="lista.html">listák</a>
-  <a href="ürlap.html">ürlap</a>
-  <a href="index.html">Home</a>
+  <ul>
+    <li><a href="kep.html">képek</a></li>
+    <li><a href="lista.html">listák</a></li>
+     <li><a href="táblázat.html">táblázat</a></li>
+     <li><a href="ürlap.html">ürlap</a></li>
+    <li><a href="index.html">Home</a></li>
+    </ul>
+
 <h2>Óra Rend</h2>
 
 <table style="width:100%">
