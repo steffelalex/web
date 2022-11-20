@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evszakok</title>
+
+    <h1>Steffel Alexander</h1>
+    <h2>Évszakok</h2>
+
+    <style>
+     ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000000;
+        }
+        
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+         
+        }
+        
+        li a:hover:not(.active) {
+          background-color: rgb(157, 0, 255);
+        }
+        
+        .active {
+          background-color: #04AA6D;
+        }
+        </style>
+
+    <style>
+
+
+
+        div{
+            border: 2px solid black; 
+           transition: .5s;
+           float: left;
+        }
+        img.TAVASZ{
+            style="width: 400px;height: 300px; float: left;"
+        }
+        img.NYAR{
+            style="width: 400px;height: 300px; float: left;"
+        }
+        img.OSZ{
+            style="width: 400px;height: 300px; float: left;"
+        }
+        img.TEL{
+            style="width: 400px;height: 300px; float: left;"
+        }
+        .TAVASZ:hover{
+            transform: scale(1.1);
+        }
+        .NYAR:hover{
+            transform: scale(1.1);
+        }
+        .OSZ:hover{
+            transform: scale(1.1);
+        }
+        .TEL:hover{
+            transform: scale(1.1);
+        }
+        .TAVASZ{
+        clear: unset;
+        }
+        .NYAR{
+            clear: unset;
+        }
+        .OSZ{
+            clear: unset;
+        }
+        .TEL{
+            clear: unset;
+        }
+    </style>
+   
+</head>
+<body bgcolor="purple">
+  
+
+
+    <ul>
+        <li><a href="kep.html">képek</a></li>
+        <li><a href="lista.html">listák</a></li>
+         <li><a href="táblázat.html">táblázat</a></li>
+         <li><a href="ürlap.html">ürlap</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="évszak.html">évszak</a></li>
+        </ul>
+
+
+    <div class="TAVASZ">
+        <img src="img/spring-g09056c454_640.jpg" alt="Tavasz" style="width: 400px;height: 300px; float: left;">
+        <h4 align="center">Tavasz</h4>
+    </div>
+
+    <div class="NYAR">
+        <img src="img/girl-429380_640.jpg" alt="Nyár" style="width: 400px;height: 300px; float: left">
+        <h4 align="center">Nyár</h4>
+    </div>
+
+    <div class="OSZ">
+        <img src="img/wood-4679868_640.jpg" alt="Ősz" style="width: 400px;height: 300px; float: left">
+        <h4 align="center">Ősz</h4>
+    </div>
+
+    <div class="TEL">
+        <img src="img/soap-bubble-1985598_640.jpg" alt="Tél" style="width: 400px;height: 300px; float: left">
+        <h4 align="center">Tél</h4>
+    </div>
+
+</body>
+</html>
