@@ -10,85 +10,144 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
+  
 <style>
- ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #000000;
+ * {
+  box-sizing: border-box;
 }
 
-
-li {
+.menu {
   float: left;
-}
-
-li a {
-  display: block;
-  color: white;
+  width: 20%;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: rgb(157, 0, 255);
+.menu a{
+  background-color:rgb(255, 0, 123);
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
 }
 
-.active {
-  background-color: #04AA6D;
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: rgb(255, 0, 123);
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+img{
+   height: 250px;
+   width: 220px;
+}
+#myDIV {
+  border: 0px solid black;
+  width: 300px;
+  color: red;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {color: blue;}
 }
 footer{
   padding: 2px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 0, 123);
   color: white;
   display: block;
   border: #000000;
   text-align: center  ;
 }
-
-p:hover{
-  background-color: rgb(157, 0, 255);
+a:hover{
+    
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(255, 0, 0170), rgb(0, 255, 255)), linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: repeat;
+    transition: background-size 400ms;
+}
+.active {
+  background-color: #04AA6D;
+}
+footer{
+  padding: 2px;
+  background-color: rgb(255, 0, 123);
+  color: rgb(255, 255, 255);
+  display: block;
+  border:rgb(0, 0, 0);
+  text-align: center  ;
 }
 
+
+
 </style>
-<body style="background-color: rgb(255, 0, 212);"> 
+<body style="background-color: rgb(218, 34, 255);"> 
+
+  <div style="background-color:rgb(255, 0, 123);padding:15px;text-align:center;">
+    <h1>Steffel Alexander</h1>
+   </div>
+   
+   <div style="overflow:auto">
+     <div class="menu">
+       <a href="index.html">Home</a>
+       <a href="kep.html">kép</a>
+       <a href="lista.html">Listák</a>
+       <a href="táblázat.html">Táblázat</a>
+       <a href="ürlap.html">Ürlap</a>
+       <a href="évszak.html">Évszakok</a>
+     </div>
+   
+     <div class="main">
+       <h1>Itten látható a Nevem H1-től H6-ig kiírva a nevem:</h1>
+
+       <p><h1>Steffel Alexander</h1></p>
+       <p><h2>Steffel Alexander</h2></p>
+       <p><h3>Steffel Alexander</h3></p>
+       <p><h4>Steffel Alexander</h4></p>
+       <p><h5>Steffel Alexander</h5></p>
+       <p><h6>Steffel Alexander</h6></p>
+       <p><h2>Egy pár rövid mondtad az egyik kedvenc játékböl</h2></p>
+
+       <p>ᛋᛉᛖᚱᛖᛏᛖᛗ ᚨ ᚷᛟᛞ ᛟᚠ ᚹᚨᚱ éᛋ ᚨ ᛞᛟᛟᛗ ᛗᛖᚷ ᚨ ᚹᚨᚱᛉᛟᚾᛖᛏ éᛋ ᛋᛉᛖᚱᛖᛏᛖᚴ ᚲᛟᛞᚢᛚᚾᛁ ᛖᛋ</p>
+     </div>
 
   
+     <div class="right">
+       <h2>About</h2>
+      <p>Itten látható rólam a collageképem</p>
+       <p><img src="img/collagekép.jpg" alt="">  </p>
+       <p>A Nevem: Steffel Alexander Daniel</p>
+       <p>Miskolci SZC Kandó Kálmán Informatikai Technikumban járok</p>
+     </div>
+   </div>
+   <body bgcolor="purple"></body>
 
 
 
-<div class="sidebar">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-    <li><a href="kep.html">képek</a></li>
-    <li><a href="lista.html">listák</a></li>
-     <li><a href="táblázat.html">táblázat</a></li>
-     <li><a href="ürlap.html">ürlap</a></li>
-    <li><a href="évszak.html">évszak</a></li>
-    </ul>
 
-    </div>
 
-<h1>Steffel Alex</h1>
-<h2>Steffel ALex</h2>
-<h3>Steffel Alex</h3>
-<h4>Steffel Alex</h4>
-<h5>Steffel Alex</h5>
-<h6>Steffel Alex</h6>
-<p class="deez nut">
-    deez nuts
-    <b>deeznuts</b>
-    eeeez 
-    labbbd
-    <i>deeeez ntus</i>
-    </p>
 
-    <img src="https://github.com/SteffikeAlek/web/blob/main/img%20-%20Copy/collagek%C3%A9p.jpg?raw=true" height="500px" width="500px">
- 
+
+    
 </mate></body><fatcoupon-root id="fatcoupon-root" style="all: initial;"></fatcoupon-root></html>
 <body>
   <footer>
@@ -97,3 +156,4 @@ p:hover{
     <p><a href="mailto:steffela@kkszki.hu">steffela@kkszki.hu</a></p>
   </footer>
 </body>
+</html>
