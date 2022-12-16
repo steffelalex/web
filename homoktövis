@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homoktovis</title>
+    <link rel="stylesheet" href="css/htovis.css">
+    <link rel="apple-touch-icon" sizes="256x256" href="https://github.com/SteffikeAlek/web/blob/main/favicon_package_v0.16/android-chrome-256x256.png?raw=true">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/SteffikeAlek/web/blob/main/favicon_package_v0.16/favicon-32x32.png?raw=true">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://github.com/SteffikeAlek/web/blob/main/favicon_package_v0.16/favicon-16x16.png?raw=true">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+   
+    <a href="index.html">Home</a>
+    <a href="kep.html">kép</a>
+    <a href="lista.html">Listák</a>
+    <a href="táblázat.html">Táblázat</a>
+    <a href="ürlap.html">Ürlap</a>
+    <a href="évszak.html">Évszakok</a>
+    <a href="homoktovis.html">Homoktövis</a>
+
+
+<h1>Homoktövis</h1>
+
+<div id="keret">
+    <img src="img/bokor.jpg" alt="" id="bokor">
+        <p>A homoktövis eredetileg a Himalája lejtőin és főként Ázsiában termő növény, de ma már meghódította az egész világot. Magyarországon is találkozhatunk vele a Duna mentén, a Balaton partján vagy a Csepel-szigeten. Nálunk védett növény.</p>
+</div>
+
+<h2>EGÉSZSÉGÜGYI HATÁSAI</h2>
+A homoktövis széles spektrumon segíti szervezetünk egészségét. Gyógyító hatása akár a meleg, akár a téli időszakban jól jöhet.
+Legfontosabb egészségügyi hatásai:
+    
+        <img src="img/termes.png" alt="" id="termes">
+    <div class="bogyo">
+    <ul>
+        <li>védi és erősíti az immunrendszert</li>
+        <li>késlelteti az öregedési folyamatot</li>
+        <li>növeli a szervezet ellenálló képességét</li>
+        <li>véd különböző fertőzések ellen</li>
+        <li>segít a legyengülésben, erősítő hatású</li>
+        <li>javítja az általános egészségügyi állapotot</li>
+        <li>C-vitamin-tartalmának köszönhetően véd a megfázás ellen</li>
+        <li>fokozza az anyagcserét, így segít az ideális testsúly megtartásában</li>
+        <li>csökkenti a vércukorszintet</li>
+        <li>védi a májat</li>
+        <li>kedvezően hat a gyomorra</li>
+        <li>lassítja az érelmeszesedést</li>
+        <li>gátolja a hajhullást</li>
+        <li>gyógyítja a sebeket</li>
+    </ul>
+</div>
+
+    <h2>CSODANÖVÉNY</h2>
+    <div id="erdekesseg">
+        <h2>TUDTA-E?</h2>
+        A homoktövist különböző festési célokra is használják, ugyanis vízzel átitatva sárga színt ad, amit festők, könyvkötők, bőr- és kézművesek használnak.
+    </div>
+    <p>E-vitamint és esszenciális zsírsavakat tartalmaz, melyek jó hatással vannak a kiszáradt, berepedezett bőrre. Májelégtelenség esetén jól hasznosul más gyógynövényekkel együtt, így például a pitypanggal. A homoktöviskéreg növeli az epe kiválasztást. Érdemes cikóriával vagy gyermekláncfűvel kombinálni annak érdekében, hogy gyógyító hatását növeljük. Csökkenti a narancsbőr kialakulását, hiszen erősíti a kötőszövetet.</p>
+
+<p>Termését elsősorban nem nyersen, hanem feldolgozva használják, dzsem, bor, ivólé, likőr, gyümölcslé, kompót formájában. Leveléből erősítő hatású tea készíthető. C-vitamin-tartalma tízszerese a citrom C-vitamin-tartalmához képest. Ennek köszönhetően jól használható megfázás és köhögés esetén</p>.
+<p>Gyógyászati célra a homoktövis termését, levelét és magolaját használják fel. Erősíti és védi az immunrendszert, elősegíti az általános jó közérzetet.</p>
+<h2>ELLENJAVASLATS</h2>
+Nagy mennyiségben való fogyasztása - ahogyan a legtöbb gyógynövény esetében, a benne található aktív hatóanyagok következtében - nem ajánlott terhes nőknek és szoptató kismamáknak, illetve 12 év alatti gyermekeknek. Érdemes kis adagokban fogyasztani, hiszen egyes esetekben hasmenést okozhat. Akut bél- és epehólyaggyulladás, illetve hasnyálmirigy megbetegedések esetén használata nem ajánlatos.
+
+<body>
+  <footer>
+    <p class="név"></p>
+      <h4>Author: Steffel Alexander <br></h4>
+    <p><a href="mailto:steffela@kkszki.hu">steffela@kkszki.hu</a></p>
+  </footer>
+</body>
+
+</body>
+</html>
