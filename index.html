@@ -114,11 +114,11 @@ footer{
        <a href="táblázat.html">Táblázat</a>
        <a href="ürlap.html">Ürlap</a>
        <a href="évszak.html">Évszakok</a>
-       <a href="homoktovis.html">Homoktövis</a>
+       <a href="homoktovis.html">homoktovis</a>
      </div>
    
      <div class="main">
-       <h1>Itt látható a Nevem H1-től H6-ig kiírva a nevem:</h1>
+       <h1>Itten látható a Nevem H1-től H6-ig kiírva a nevem:</h1>
 
        <p><h1>Steffel Alexander</h1></p>
        <p><h2>Steffel Alexander</h2></p>
@@ -156,5 +156,32 @@ footer{
       <h4>Author: Steffel Alexander <br></h4>
     <p><a href="mailto:steffela@kkszki.hu">steffela@kkszki.hu</a></p>
   </footer>
+ <form action="javascript:csinald()">
+  <fieldset><legend>Registráció</legend>
+    <input type="email" name="mail" id="mail" placeholder="email">
+    <input type="password" name="pass" id="pass" placeholder="jelszó">
+    <input type="submit" value="SUBMIT">
+  </fieldset>
+
+ </form>
+ <script>
+    function csinald() {
+
+    if (mail.value == " "){
+      alert("Nem adtál meg Email-T");
+    }
+
+
+    if(pass.value == "Alexander"){
+      alert("Welcome back Sir");
+    }
+    else if(pass.value == ""  ){
+      alert("YOU DIDNT PUT A PASSWORD!?")
+    }
+    else{
+      alert("WRONG PASSWORD PLEASE TRY AGAIN!")
+    }
+    }
+ </script>
 </body>
 </html>
