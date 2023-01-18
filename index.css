@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+  }
+  
+  .menu a{
+    background-color:rgb(255, 0, 123);
+    padding: 8px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+  }
+  
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+  }
+  
+  .right {
+    background-color: rgb(255, 0, 123);
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+  img{
+     height: 250px;
+     width: 220px;
+  }
+  #myDIV {
+    border: 0px solid black;
+    width: 300px;
+    color: red;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {color: blue;}
+  }
+  footer{
+    padding: 2px;
+    background-color: rgb(255, 0, 123);
+    color: white;
+    display: block;
+    border: #000000;
+    text-align: center  ;
+  }
+  a:hover{
+      
+      text-decoration: none;
+      background: linear-gradient(to right, rgb(255, 0, 0170), rgb(0, 255, 255)), linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+      background-size: 100% 0.1em, 0 0.1em;
+      background-position: 100% 100%, 0 100%;
+      background-repeat: repeat;
+      transition: background-size 400ms;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  footer{
+    padding: 2px;
+    background-color: rgb(255, 0, 123);
+    color: rgb(255, 255, 255);
+    display: block;
+    border:rgb(0, 0, 0);
+    text-align: center  ;
+  }
+  
+  fieldset{
+      background-color: bisque;
+  }
+  legend{
+      color: aquamarine;
+      background-color: brown;
+      border: 2px solid black;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      border-radius: 5px;
+  }
+  input{
+      background-color: antiquewhite;
+  }
