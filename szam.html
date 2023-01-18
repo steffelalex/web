@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="javascript:void0">
+        <fieldset>
+            <legend>Számol</legend>
+            <br>
+            <input type="number" name="sz" id="a" placeholder="szám1" required>
+            <input type="number" name="sz" id="b" placeholder="szám2" required>
+            <input type="text"   name="sz" id="c" placeholder="eredmény" readonly>
+            <br><br>
+            <input type="submit" value="+" onclick="ad()"> 
+            <input type="submit" value="-" onclick="kiv()"> 
+            <input type="submit" value="*" onclick="szor()">
+            <input type="submit" value="/" onclick="oszt()">
+            <input type="reset" value="törlés">
+
+        </fieldset>
+    </form>
+        <script>
+           function ad() {
+               c.value =Number(a.value) + Number(b.value)
+           }
+           function kiv() {
+               c.value =Number(a.value) - Number(b.value)
+           }
+           function szor() {
+               c.value =Number(a.value) * Number(b.value)
+           }
+           function oszt() {
+               c.value =Number(a.value) / Number(b.value)
+           }
+
+        </script>
+</body>
+</html>
