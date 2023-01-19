@@ -11,128 +11,89 @@
   <meta name="theme-color" content="#ffffff">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
 
-  
-<body ba>
-  
-
-
-
-  <div style="background-color:rgb(0, 0, 0);padding:15px;text-align:center;">
-    <h1>Steffel Alexander</h1>
-   </div>
-   
-   <div style="overflow:auto">
-     <div class="menu">
-       <a href="index.html">Home</a>
-       <a href="kep.html">kép</a>
-       <a href="lista.html">Listák</a>
-       <a href="táblázat.html">Táblázat</a>
-       <a href="ürlap.html">Ürlap</a>
-       <a href="évszak.html">Évszakok</a>
-       <a href="homoktovis.html">homoktovis</a>
-       <a href="szam.html">számológép</a>
-     </div>
-   
-     <div class="main">
-       <h1>Itten látható a Nevem H1-től H6-ig kiírva a nevem:</h1>
-
-       <p><h1>Steffel Alexander</h1></p>
-       <p><h2>Steffel Alexander</h2></p>
-       <p><h3>Steffel Alexander</h3></p>
-       <p><h4>Steffel Alexander</h4></p>
-       <p><h5>Steffel Alexander</h5></p>
-       <p><h6>Steffel Alexander</h6></p>
-       <p><h2>Egy pár rövid mondtad az egyik kedvenc játékböl</h2></p>
-
-      <p> ᛋᛉᛖᚱᛖᛏᛖᛗ ᚨ ᚷᛟᛞ ᛟᚠ ᚹᚨᚱ éᛋ ᚨ ᛞᛟᛟᛗ ᛗᛖᚷ ᚨ ᚹᚨᚱᛉᛟᚾᛖᛏ éᛋ ᛋᛉᛖᚱᛖᛏᛖᚴ ᚲᛟᛞᚢᛚᚾᛁ ᛖᛋ</p>
-     </div>
-
-  
-     <div class="right">
-       <h2>About</h2>
-      <p>Itten látható rólam a collageképem</p>
-       <p><img src="https://github.com/SteffikeAlek/web/blob/main/img%20-%20Copy/collagek%C3%A9p.jpg?raw=true" alt="">  </p>
-       <p>A Nevem: Steffel Alexander Daniel</p>
-       <p>Miskolci SZC Kandó Kálmán Informatikai Technikumban járok</p>
-     </div>
-   </div>
-   
+    <style>
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #000000;
+}
 
 
+li {
+  float: left;
+}
 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
+li a:hover:not(.active) {
+  background-color: rgb(157, 0, 255);
+}
 
-
-
+.active {
+  background-color: #04AA6D;
+}
     
-</mate></body><fatcoupon-root id="fatcoupon-root" style="all: initial;"></fatcoupon-root></html>
+      footer{
+  padding: 2px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: block;
+  border: #000000;
+  text-align: center;
+  
+}
+
+p:hover{
+  background-color: rgb(157, 0, 255);
+}
+body{
+  background-image: url("https://github.com/SteffikeAlek/web/blob/main/img%20-%20Copy/-asus-rog-neon-red.jpg?raw=true");
+}
+      </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keplink</title>
+</head>
+<body style="background-color:rgb(137, 19, 227) ;"></body>
+
+
+
+
+
+<img src="https://github.com/SteffikeAlek/web/blob/main/img%20-%20Copy/mysetup.jpg?raw=true" alt="" height="500px" width="650">
+
+  <div class="sidebar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+    <li><a href="kep.html">képek</a></li>
+    <li><a href="lista.html">listák</a></li>
+     <li><a href="táblázat.html">táblázat</a></li>
+     <li><a href="ürlap.html">ürlap</a></li>
+    <li><a href="évszak.html">évszak</a></li>
+    <li><a href="homoktovis.html">homoktövis</a></li>
+  </ul>
+  </div>
+    
+    
+</body>
 <body>
+  <div class="footer">
   <footer>
-    <p class="név"></p>
+    <p class="footer"></p>
       <h4>Author: Steffel Alexander <br></h4>
     <p><a href="mailto:steffela@kkszki.hu">steffela@kkszki.hu</a></p>
   </footer>
- <form action="javascript:csinald()">
-  <fieldset><legend>Registráció</legend>
-    <input type="email" name="mail" id="mail" placeholder="email">
-    <input type="password" name="pass" id="pass" placeholder="jelszó">
-    <input type="submit" value="SUBMIT">
-  </fieldset>
-
- </form>
- <script>
-    function csinald() {
-
-    if (mail.value == " "){
-      alert("Nem adtál meg Email-T");
-    }
-
-
-    if(pass.value == "Alexander"){
-      alert("Welcome back Sir");
-    }
-    else if(pass.value == ""  ){
-      alert("YOU DIDNT PUT A PASSWORD!?")
-    }
-    else{
-      alert("WRONG PASSWORD PLEASE TRY AGAIN!")
-    }
-    }
- </script>
-
-<form action="javascript:void0">
-  <fieldset>
-      <legend>Számol</legend>
-      <br>
-      <input type="number" name="sz" id="a" placeholder="szám1" required>
-      <input type="number" name="sz" id="b" placeholder="szám2" required>
-      <input type="text"   name="sz" id="c" placeholder="eredmény" readonly>
-      <br><br>
-      <input type="submit" value="+" onclick="ad()"> 
-      <input type="submit" value="-" onclick="kiv()"> 
-      <input type="submit" value="*" onclick="szor()">
-      <input type="submit" value="/" onclick="oszt()">
-      <input type="reset" value="törlés">
-
-  </fieldset>
-</form>
-  <script>
-     function ad() {
-         c.value =Number(a.value) + Number(b.value)
-     }
-     function kiv() {
-         c.value =Number(a.value) - Number(b.value)
-     }
-     function szor() {
-         c.value =Number(a.value) * Number(b.value)
-     }
-     function oszt() {
-         c.value =Number(a.value) / Number(b.value)
-     }
-
-  </script>
-
+</div>
 </body>
+
 </html>
