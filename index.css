@@ -9,22 +9,25 @@
   }
   
   .menu a{
-    background-color:rgb(255, 0, 123);
+    background-color:rgb(0, 0, 0);
     padding: 8px;
     margin-top: 7px;
     display: block;
     width: 100%;
     color: black;
+    color: white;
   }
   
   .main {
     float: left;
     width: 60%;
     padding: 0 20px;
+   
+ 
   }
   
   .right {
-    background-color: rgb(255, 0, 123);
+    background-color: rgb(0, 0, 0);
     float: left;
     width: 20%;
     padding: 15px;
@@ -50,7 +53,7 @@
   }
   
   @keyframes mymove {
-    50% {color: blue;}
+    50% {color: rgb(0, 255, 255);}
   }
   footer{
     padding: 2px;
@@ -74,7 +77,7 @@
   }
   footer{
     padding: 2px;
-    background-color: rgb(255, 0, 123);
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     display: block;
     border:rgb(0, 0, 0);
@@ -82,7 +85,7 @@
   }
   
   fieldset{
-      background-color: bisque;
+      background-color:black;
   }
   legend{
       color: aquamarine;
@@ -93,4 +96,13 @@
   }
   input{
       background-color: antiquewhite;
+  }
+  body{
+    background-image: url("../list.html/img/whiteandblackrog.jpg");
+  }
+  h1,h2,h3,h4,h5,h6{
+    color: white;
+  }
+  p{
+    color: white;
   }
